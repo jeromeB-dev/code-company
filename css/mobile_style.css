@@ -1,0 +1,146 @@
+/* CSS file used for mobile display */
+
+/* style for screen < 1200px */
+@media screen and (max-width: 1200px) {
+
+    .container,
+    footer .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+/* End condition */
+
+
+/* style for screen < 1000px */
+@media screen and (max-width: 1000px) {
+
+    .bkg-top-image {
+        padding-bottom: 50px;
+    }
+
+    .bkg-top-image p {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    #portfolio .hc {
+        height: 1px;
+        width: 50%;
+        border-top: 1px solid white;
+        opacity: 0.2;
+        margin: 20px 0;
+    }
+}
+
+/* End condition */
+
+
+/* style for screen < 900px */
+@media screen and (max-width: 900px) {
+
+    .bkg-top-image h1 {
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    footer small {
+        display: table-caption;
+    }
+
+}
+
+/* End condition */
+
+
+/* style for screen < 700px */
+@media screen and (max-width: 700px) {
+
+    .top-head-bkg {
+        height: 100%;
+    }
+
+    .logo-top {
+        margin: auto;
+    }
+
+    .menu-title {
+        margin: auto;
+    }
+
+    #menu .active-page {
+        padding: 0;
+        height: 100%;
+        box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.1) inset;
+    }
+
+    #menu li {
+        width: 100%;
+        margin-top: 10px;
+        border: none;
+    }
+
+    #menu li:hover:not(.active-page) {
+        padding: 0;
+    }
+
+    .active-page:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* End condition */
+
+
+
+/* style for screen < 600px */
+
+@media screen and (max-width: 600px) {
+
+    #team .team-speach {
+        width: 100%;
+    }
+
+    #portfolio .container {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    #portfolio .flex-b {
+        flex-wrap: nowrap;
+    }
+
+    #portfolio article a {
+        margin: 0;
+    }
+
+    #contact fieldset input {
+        width: 100%;
+        min-width: unset;
+    }
+
+    #contact textarea {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    footer .flex-b {
+        justify-content: center;
+    }
+
+    footer #social ul {
+        padding: 10px 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer small {
+        display: inline-block;
+        margin-top: 30px;
+    }
+}
+
+/* End condition */
